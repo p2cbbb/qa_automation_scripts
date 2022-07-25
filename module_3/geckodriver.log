@@ -1,0 +1,12 @@
+1658755584762	geckodriver	INFO	Listening on 127.0.0.1:55351
+1658755587823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\p2cbbb\\AppData\\Local\\Temp\\rust_mozprofile5Sj10d"
+1658755588126	Marionette	INFO	Marionette enabled
+1658755588130	Marionette	INFO	Listening on port 55361
+WebDriver BiDi listening on ws://localhost:55352
+Read port: 55361
+1658755588230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\p2cbbb\\AppData\\Local\\Temp\\rust_mozprofile5Sj10d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55352/devtools/browser/1a10634c-3a78-4e16-a53b-ff72eadea342
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1658755590935	Marionette	INFO	Stopped listening on port 55361
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
